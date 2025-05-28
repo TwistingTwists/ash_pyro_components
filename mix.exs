@@ -126,14 +126,14 @@ defmodule AshPyroComponents.MixProject do
       {:pyro, "~> 0.3"},
       # {:ash_pyro, "~> 0.2"},
       # {:pyro_components, "~> 0.1"},
-      # {:pyro_components, github: "frankdugan3/pyro_components", branch: "main"},
-      # {:ash_pyro, github: "frankdugan3/ash_pyro", branch: "main"},
-      {:pyro_components, path: "../pyro_components"},
-      {:ash_pyro, path: "../ash_pyro"},
+      {:pyro_components, github: "frankdugan3/pyro_components", branch: "main"},
+      {:ash_pyro, github: "frankdugan3/ash_pyro", branch: "main"},
+      # {:pyro_components, path: "../pyro_components"},
+      # {:ash_pyro, path: "../ash_pyro"},
       {:phoenix_live_view, "~> 0.20"},
       {:phoenix, "~> 1.7"},
-      {:ash, "~> 3.0.0-rc.8"},
-      {:ash_phoenix, "~> 2.0.0-rc.2"},
+      {:ash, "~> 3.0"},
+      {:ash_phoenix, "~> 2.0"},
       {:gettext, "~> 0.24", optional: true}
     ]
   end
